@@ -7,4 +7,6 @@ where $\gamma$ is a physical constant known as the [gyromagnetic ratio](https://
 
 This repository contains a small collection of Python Codes to solve the above equations numerically. An example script `main.py` is provided, which illustrates the usage.
 
+![a plot of the algorithm's output](https://github.com/frank-roesler/bloch_solver/blob/main/figure.png)
+
 Any comments or queries are welcome at https://frank-roesler.github.io/contact/
