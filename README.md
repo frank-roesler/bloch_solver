@@ -1,5 +1,5 @@
 # Bloch Solver
-The Bloch Equations provide a mathematical model for the response of nuclear spins to an external RF pulse, as used in MR imaging. The equations are given by
+The Bloch Equations provide a mathematical model for the response of nuclear spins to an external RF pulse, as used in MR imaging. The equations are given by  
 $$\mathsf{\frac{d M_x(t)}{dt} = -\Delta\omega M_y(t) - \gamma B_{1,y}(t)M_z(t) - \frac{M_x(t)}{T_2}  }$$  
 $$\mathsf{\frac{d M_y(t)}{dt} = \Delta\omega M_x(t) + \gamma B_{1,x}(t)M_z(t) - \frac{M_y(t)}{T_2}  }$$  
 $$\mathsf{\frac{d M_z(t)}{dt} = \gamma B_{1,y}(t)M_x(t) - \gamma B_{1,x}(t)M_y(t) - \frac{M_z(t) - M_z^0}{T_1}  },$$  
